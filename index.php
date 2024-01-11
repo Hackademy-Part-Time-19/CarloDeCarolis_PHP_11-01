@@ -8,13 +8,13 @@ utilizzando if…elseif…else
 Implementa nuovamente l’esercizio utilizzando uno switch */
 
 
-$users = [
+$utenti = [
     ['name' => 'Davide', 'surname' => 'Cariola', 'gender' => 'M'],
     ['name' => 'Giorgia', 'surname' => 'Bianchi', 'gender' => 'F'],
     ['name' => 'Optimus', 'surname' => 'Prime', 'gender' => 'NB']
 ];
 
-foreach ($users as $elemento) {
+foreach ($utenti as $elemento) {
     $saluto = "";
     
     if ($elemento['gender'] == 'M') {
@@ -30,7 +30,7 @@ foreach ($users as $elemento) {
 
 
 
-foreach ($users as $elemento) {
+foreach ($utenti as $elemento) {
     $saluto = "";
 
     switch ($elemento['gender']) {
